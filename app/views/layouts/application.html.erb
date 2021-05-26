@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>OpenFlights</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'index' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
